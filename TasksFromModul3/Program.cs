@@ -11,7 +11,7 @@ namespace TasksFromModul3
         static void Main(string[] args)
         {
             const string MyName = "Егор";
-            Console.WriteLine($"{MyName}\n\tHello World\n\tМне 18 лет\n {MyName}");
+            Console.WriteLine($"{MyName}\n\tHello World\n\tМне 18 лет\n {MyName}\n\u0040\n\x23");
         }
     }
 }
