@@ -10,7 +10,7 @@ namespace TasksFromModul3
     {
         static void Main(string[] args)
         {
-            string MyName = "Egor";
+            string MyName = "Егор";
             Console.WriteLine(MyName);
         }
     }
