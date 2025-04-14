@@ -10,19 +10,17 @@ namespace TasksFromModul3
     {
         static void Main(string[] args)
         {
-            DaysOfWeek MyFavoriteDay;
-
-            MyFavoriteDay = DaysOfWeek.Friday;
-
-            Console.WriteLine(MyFavoriteDay);
+            foreach (Colors color in Enum.GetValues(typeof(Colors)))
+            {
+                Console.WriteLine($"{color}: {(int)color}");
+            }
         }
     }
-            enum DaysOfWeek : byte
+            enum Colors 
         {
-            Tuesday,
-            Monday,
-            Wednesday,
-            Friday
+            Red = 100,
+            Yellow = 200,
+            Green = 300
         }        
     
 }
