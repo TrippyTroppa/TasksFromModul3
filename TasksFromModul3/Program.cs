@@ -10,12 +10,9 @@ namespace TasksFromModul3
     {
         static void Main(string[] args)
         {
-            string MyName = "Computer";
-            Console.WriteLine("Привет, человек");
-            Console.WriteLine("Меня зовут {0}", MyName);
-            Console.Write("А как тебя зовут? ");
-            string YourName = Console.ReadLine();
-            Console.Write("Рад встрече, {0} ", YourName);
+            int counter = 10;
+            Console.WriteLine("Value : {0} Increment: {1}", counter, ++counter);
+
         }
     }
         
