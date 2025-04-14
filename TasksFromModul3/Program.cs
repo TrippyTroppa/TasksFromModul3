@@ -10,12 +10,8 @@ namespace TasksFromModul3
     {
         static void Main(string[] args)
         {
-            const string MyName = "Егор";
-            int age = 18;
-            bool pet = true;
-            double FootSize =  43.5;
-            Console.WriteLine($"My name is {MyName}\nMy age is {age}\nDo I have a pet? {pet}\nMy shoe size is {FootSize}");
-
+            Console.WriteLine("IntMin {0} ", int.MinValue);
+            Console.WriteLine("IntMax {0} ", int.MaxValue);
         }
     }
 }
