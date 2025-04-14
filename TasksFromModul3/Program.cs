@@ -11,7 +11,11 @@ namespace TasksFromModul3
         static void Main(string[] args)
         {
             const string MyName = "Егор";
-            Console.WriteLine($"{MyName}\n\tHello World\n\tМне 18 лет\n {MyName}\n\u0040\n\x23");
+            int age = 18;
+            bool pet = true;
+            double FootSize =  43.5;
+            Console.WriteLine($"My name is {MyName}\nMy age is {age}\nDo I have a pet? {pet}\nMy shoe size is {FootSize}");
+
         }
     }
 }
