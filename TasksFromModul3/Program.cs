@@ -10,7 +10,12 @@ namespace TasksFromModul3
     {
         static void Main(string[] args)
         {
-            Console.WriteLine($"\tHello,\nworld!");
+            string MyName = "Computer";
+            Console.WriteLine("Привет, человек");
+            Console.WriteLine("Меня зовут {0}", MyName);
+            Console.Write("А как тебя зовут? ");
+            string YourName = Console.ReadLine();
+            Console.Write("Рад встрече, {0} ", YourName);
         }
     }
         
