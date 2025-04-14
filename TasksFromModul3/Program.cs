@@ -10,18 +10,10 @@ namespace TasksFromModul3
     {
         static void Main(string[] args)
         {
-            foreach (Colors color in Enum.GetValues(typeof(Colors)))
-            {
-                Console.WriteLine($"{color}: {(int)color}");
-            }
+            Console.WriteLine($"\tHello,\nworld!");
         }
     }
-            enum Colors 
-        {
-            Red = 100,
-            Yellow = 200,
-            Green = 300
-        }        
+        
     
 }
 
