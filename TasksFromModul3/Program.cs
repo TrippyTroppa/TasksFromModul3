@@ -10,11 +10,16 @@ namespace TasksFromModul3
     {
         static void Main(string[] args)
         {
-            int counter = 10;
-            Console.WriteLine("Value : {0} Increment: {1}", counter, ++counter);
-
+            Console.Write("Введите ваше имя: ");
+           string name = Console.ReadLine();
+            Console.Write("Введите ваш возраст: ");
+            int age = int.Parse(Console.ReadLine());
+            Console.Write("Введите вашу дату рождения: ");
+            var birthday = Console.ReadLine();
         }
+
     }
+    
         
     
 }
